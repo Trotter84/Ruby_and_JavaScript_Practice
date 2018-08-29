@@ -7,7 +7,7 @@ end
 
 def capitalizer
   print "> "
-  word = gets.chomp.strip.downcase
+  word = gets.chomp.strip
   puts word.split.map(&:capitalize).join(' ')
   exit
 end
